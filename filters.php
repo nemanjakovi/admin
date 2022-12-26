@@ -30,6 +30,6 @@ if (!empty($_POST["gender"])) {
     }
 }
 if (!empty($filterFromDate) && !empty($filterToDate)) {
-    // $query = "SELECT * FROM user ";
-    $query .=  " AND " . ' date BETWEEN "' . $filterFromDate . '" AND "' . $filterToDate . '"';
+    $query = "SELECT * FROM user ";
+    $query .=  " WHERE " . ' date BETWEEN "' . $filterFromDate . '" AND "' . $filterToDate . '"';
 }
