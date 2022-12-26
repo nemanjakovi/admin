@@ -12,5 +12,5 @@ INSTALLATION
     After creating database name, click on import.
     browse the file in directory[import-table/user.sql].
     After importing successfully.
-    Open any browser and type http://localhost/admin/..
-    Refresh page to seed users
+    Open any browser and type the file location
+    Click Dashboard on the sidebar to seed usere.
