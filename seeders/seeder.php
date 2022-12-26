@@ -23,15 +23,15 @@ class Seeder extends Database
 try {
     $user = new Seeder();
 
-    $user->setUsers("Pera", "Stankovic", "1960/05/26", "Male");
-    $user->setUsers("Laza", "Ristic", "1972/09/16", "Male");
-    $user->setUsers("Marija", "Bogdanovic", "1993/10/10", "Female");
-    $user->setUsers("Milena", "Stankovic", "2000/04/07", "Female");
-    $user->setUsers("Ana", "Stankovic", "1981/10/01", "Female");
-    $user->setUsers("Petra", "Markovic", "2019/01/12", "Female");
-    $user->setUsers("Nemanja", "Mitrovic", "1958/02/26", "Male");
-    $user->setUsers("Pera", "Peric", "1985/12/06", "Male");
-    $user->setUsers("Nemanja", "Markovic", "1990/03/15", "Male");
+    $user->setUsers("Pera", "Stankovic", "1960-05-26", "Male");
+    $user->setUsers("Laza", "Ristic", "1972-09-16", "Male");
+    $user->setUsers("Marija", "Bogdanovic", "1993-10-10", "Female");
+    $user->setUsers("Milena", "Stankovic", "2000-04-07", "Female");
+    $user->setUsers("Ana", "Stankovic", "1981-10-01", "Female");
+    $user->setUsers("Petra", "Markovic", "2019-01-12", "Female");
+    $user->setUsers("Nemanja", "Mitrovic", "1958-02-26", "Male");
+    $user->setUsers("Pera", "Peric", "1985-12-06", "Male");
+    $user->setUsers("Nemanja", "Markovic", "1990-03-15", "Male");
 } catch (Throwable $e) {
     echo   $e->getMessage();
 }
