@@ -14,7 +14,7 @@ if ($users->getAllUsersCount() < 1) {
 if (isset($_POST["filter"])) {
     $filterName = $_POST['filter_name'];
     $filterLastName = $_POST['filter_last_name'];
-    $filterFromDate = $_POST['from_date'];
+    $filterDateFrom = $_POST['from_date'];
     $filterToDate = $_POST['to_date'];
 
     if (!empty($_POST["gender"])) {
